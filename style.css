@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+    margin: 10px 0;
+    background-color: transparent;
+}
+h3 {
+    font-size: 20px;
+    margin: 5px 0;
+}
+h5 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+header {
+    padding: 8.5px 10px;
+    display: flex;
+    align-items: center;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+#logo {
+    height: 50px;
+
+}
+#menu {
+    display: flex;
+    justify-content: space-around; 
+    flex-flow: row wrap;
+    width: 60%;
+    max-width: 300px;
+    min-height: 69px;
+    align-items: center;
+}
+#menu li {
+    list-style: none;
+}
+main {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#hero {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 90%;
+    background-image: url("./assets/images/img-mission-background.jpg");
+}
+#hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 30px 5px;
+}
+
+#selected-tea {
+    max-width: 1100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+.tea-row {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+ 
+    flex-wrap: wrap;
+}
+.tea-image-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+    gap: 15px;
+
+}
+
+.tea-img {
+    width: 300px;
+    height: 200px;
+}
+#locations-section {
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    max-width: 1200px;
+    width: 90%;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./assets/images/img-locations-background.jpg");
+    padding: 30px;
+}
+#locations-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    width: 100%;
+    background-color: transparent;
+    flex-wrap: wrap;
+}
+.location-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    min-height: 300px;
+    background-color: black;
+    opacity: 0.8;
+}
+#footer {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+#copy-right{
+    width: 100%;
+    margin: 20px 20px;
+}
+
+#copy-right p {
+    text-align: left;
+}
